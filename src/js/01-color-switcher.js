@@ -18,9 +18,9 @@ function onClickChangeColor(e) {
 
 
 function onclickStopChangingColor(e){
-  clearInterval(timerId);
-  refs.stopBtn.setAttribute('disabled', 'true');
-  refs.startBtn.removeAttribute("disabled");
+    clearInterval(timerId);
+    refs.stopBtn.setAttribute('disabled', 'true');
+    refs.startBtn.removeAttribute("disabled");
 }
 
 function getRandomHexColor() {
